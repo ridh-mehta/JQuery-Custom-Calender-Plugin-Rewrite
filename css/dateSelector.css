@@ -1,0 +1,59 @@
+table td {
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #DADADA;
+    cursor: pointer;
+    box-shadow: 1px 2px black;
+}
+table td:Hover {
+    color: #ffffff;
+    background-color: #32EEEE;
+    font-size: 25px;
+}
+
+.selected {
+    color: #ffffff;
+    background-color: #53B8D6;
+    font-size: 25px;
+    box-shadow: 1px 2px #0044cc;;
+
+}
+
+table {
+    width: 100%;
+}
+
+.yearTable td, .monthTable td{
+    width: 25%;
+}
+
+.dateTable td {
+    width: 14%;
+}
+
+.dateTable td:disabled {
+    background: #EDEDED;
+    color: #DADADA;
+}
+
+.disable-date {
+    background: #EDEDED;
+    color: #DADADA;
+    cursor: not-allowed;
+    box-shadow: 1px 1px #DADADA;
+}
+
+.save-button {
+    width: 25%;
+    height: 30px;
+    margin: 15px;
+}
+
+.date-label, .month-label, .year-label {
+    font-size: x-large; 
+}
+
+.year, .month, .date {
+    margin: 15px;
+}
